@@ -31,6 +31,12 @@ Object.defineProperty(exports, "formatToClfTime", {
     return _formatToClfTime.default;
   }
 });
+Object.defineProperty(exports, "getHttpApiCorsConfig", {
+  enumerable: true,
+  get: function () {
+    return _getHttpApiCorsConfig.default;
+  }
+});
 Object.defineProperty(exports, "jsonPath", {
   enumerable: true,
   get: function () {
@@ -93,6 +99,8 @@ var _createUniqueId = _interopRequireDefault(require("./createUniqueId.js"));
 var _detectExecutable = _interopRequireDefault(require("./detectExecutable.js"));
 
 var _formatToClfTime = _interopRequireDefault(require("./formatToClfTime.js"));
+
+var _getHttpApiCorsConfig = _interopRequireDefault(require("./getHttpApiCorsConfig.js"));
 
 var _jsonPath = _interopRequireDefault(require("./jsonPath.js"));
 
